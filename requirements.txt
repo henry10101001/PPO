@@ -1,0 +1,6 @@
+numpy>=1.24.0
+torch>=2.0.0
+matplotlib>=3.7.0
+opencv-python>=4.8.0
+gym>=0.26.0
+prettytable>=3.8.0 

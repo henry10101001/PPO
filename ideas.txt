@@ -1,0 +1,16 @@
+ideas:
+======
+
+environment: grid world with agent, goal, walls.
+agent:
+	- 1D raycast "vision"
+		- distance-based; is this basically lidar?
+		- 16 rays
+	- random start loc
+goal:
+	- random start loc
+	- make it mobile later? (but slower than agent)
+reward:
+	- +1 for reaching goal
+	- -0.01 for step
+	- +0.05 for nearing goal
