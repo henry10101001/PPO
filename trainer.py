@@ -99,7 +99,7 @@ if __name__ == "__main__":
 
             # Environment step
             next_obs_np, reward, done, _, _ = envs.step(action.cpu().numpy())
-            rewards[step] = torch.tensor(reward, dtype=torch.float32).to(args.device)
+            rewards[step] = torch.tensor(reward, dtype=torch.float32).to(args.device) # record tensor of all envs' rewards for this step
             next_obs = torch.tensor(next_obs_np, dtype=torch.float32).to(args.device)
             next_done = torch.tensor(done, dtype=torch.float32).to(args.device)
 

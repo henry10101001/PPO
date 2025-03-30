@@ -1,6 +1,8 @@
 ideas:
 ======
 
+GridWorld 2.0:
+--------------
 environment: grid world with agent, goal, walls.
 agent:
 	- 1D raycast "vision"
@@ -13,4 +15,14 @@ goal:
 reward:
 	- +1 for reaching goal
 	- -0.01 for step
-	- +0.05 for nearing goal
+	- +0.05 for nearing goal (getting closer within vision)
+
+
+
+
+random other ideas:
+- agent gets to choose its zoom level / level of detail; size vs detail tradeoff (discrete levels)
+- 
+
+
+
